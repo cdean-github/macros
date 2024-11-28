@@ -42,7 +42,7 @@ namespace G4BEAMLINE
   double enclosure_r_max = 30.;  // 30cm radius to cover magnets
   double enclosure_center = 0.5 * (starting_z + enclosure_z_max);
   double skin_thickness = 0.; // if center of magnet iron is black hole - thickness of Fe surrounding it
-  int pipe_id_offset = 100;
+  int pipe_id_offset = 300;
   int roman_pot_pipe_id_offset = 200;
   PHG4CylinderSubsystem *ForwardBeamLineEnclosure(nullptr);
   PHG4CylinderSubsystem *BackwardBeamLineEnclosure(nullptr);
